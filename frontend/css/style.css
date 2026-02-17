@@ -1,0 +1,187 @@
+body.dashboard-bg {
+    background: #f4f6fb;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 240px;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #1f2937, #111827);
+    color: white;
+}
+
+.brand {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.sidebar .nav-link {
+    display: block;
+    padding: 10px 0;
+    color: #d1d5db;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.sidebar .nav-link:hover,
+.active-link {
+    color: white;
+    font-weight: 600;
+}
+
+/* Main Area */
+.content-area {
+    background: #f4f6fb;
+}
+
+.page-title {
+    font-weight: 600;
+}
+
+.admin-badge {
+    background: #111827;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+/* Stats Cards */
+.stat-card {
+    padding: 25px;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+}
+
+.stat-card h6 {
+    opacity: 0.9;
+}
+
+.stat-card h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+}
+
+.stat-card.total {
+    background: linear-gradient(135deg, #6366f1, #4f46e5);
+}
+
+.stat-card.active {
+    background: linear-gradient(135deg, #10b981, #059669);
+}
+
+.stat-card.completed {
+    background: linear-gradient(135deg, #3b82f6, #2563eb);
+}
+
+.stat-card.dropped {
+    background: linear-gradient(135deg, #ef4444, #dc2626);
+}
+
+/* Quick Action */
+.section-title {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.action-btn {
+    border-radius: 10px;
+    padding: 12px 25px;
+    font-weight: 500;
+}
+
+
+/* Attendance Card */
+.attendance-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+/* Date Box */
+.date-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.date-box input {
+    width: 180px;
+}
+
+/* Modern Table */
+.modern-table thead {
+    background: #f3f4f6;
+}
+
+.modern-table th {
+    font-weight: 600;
+    padding: 12px;
+}
+
+.modern-table td {
+    vertical-align: middle;
+    padding: 12px;
+}
+
+.modern-table tbody tr:hover {
+    background-color: #f9fafb;
+    transition: 0.2s;
+}
+
+
+/* Form Card */
+.form-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+/* Modern Inputs */
+.modern-input {
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    padding: 10px;
+    transition: 0.2s ease;
+}
+
+.modern-input:focus {
+    border-color: #6366f1;
+    box-shadow: 0 0 0 2px rgba(99,102,241,0.15);
+}
+
+
+/* Table Card */
+.table-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+/* Modern Table */
+.modern-table thead {
+    background: #f3f4f6;
+}
+
+.modern-table th {
+    font-weight: 600;
+    padding: 12px;
+}
+
+.modern-table td {
+    padding: 12px;
+}
+
+.modern-table tbody tr:hover {
+    background-color: #f9fafb;
+    transition: 0.2s ease;
+}
+
+

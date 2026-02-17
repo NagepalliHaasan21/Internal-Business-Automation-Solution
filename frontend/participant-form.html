@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Participant - Iron Lady Admin</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="dashboard-bg">
+
+<div class="d-flex">
+
+    <!-- Sidebar -->
+    <div class="sidebar p-4">
+        <h4 class="brand">Iron Lady</h4>
+        <hr>
+        <a href="dashboard.html" class="nav-link">Dashboard</a>
+        <a href="participants.html" class="nav-link active-link">Participants</a>
+        <a href="attendance.html" class="nav-link">Attendance</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content-area p-4 w-100">
+
+        <div class="mb-4">
+            <h2 class="page-title">Add / Edit Participant</h2>
+            <p class="text-muted">Manage participant enrollment and cohort details</p>
+        </div>
+
+        <div class="form-card p-4">
+
+            <form id="participantForm">
+                <div class="row">
+
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label">Full Name</label>
+                        <input type="text" name="name" class="form-control modern-input" required>
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label">Email Address</label>
+                        <input type="email" name="email" class="form-control modern-input" required>
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label">Phone Number</label>
+                        <input type="text" name="phone" class="form-control modern-input">
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label">Program</label>
+                        <select name="program" class="form-control modern-input">
+                            <option>Leadership Accelerator</option>
+                            <option>Executive Growth Program</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label">Cohort Number</label>
+                        <input type="number" name="cohort" class="form-control modern-input">
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label">Status</label>
+                        <select name="status" class="form-control modern-input">
+                            <option>Active</option>
+                            <option>Completed</option>
+                            <option>Dropped</option>
+                        </select>
+                    </div>
+
+                    <div class="col-12 mb-4">
+                        <label class="form-label">Notes</label>
+                        <textarea name="notes" class="form-control modern-input" rows="3"
+                            placeholder="Add remarks, performance notes, or follow-up details"></textarea>
+                    </div>
+
+                </div>
+
+                <div class="d-flex justify-content-end gap-2">
+                    <a href="participants.html" class="btn btn-outline-secondary action-btn">
+                        Cancel
+                    </a>
+                    <button type="submit" class="btn btn-primary action-btn">
+                        Save Participant
+                    </button>
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+</div>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
