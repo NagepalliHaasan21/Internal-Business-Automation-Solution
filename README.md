@@ -37,6 +37,25 @@ This system solves these problems by:
 
 ---
 
+## 🎥 Live Demo
+
+A complete execution walkthrough of the Internal Business Automation System can be viewed below:
+
+<img width="1912" height="829" alt="Internal Business Architecture" src="https://github.com/user-attachments/assets/5c9f11e9-cb83-49b0-9dd7-184e3de2906a" />
+
+
+👉 **Project Demo Video:**  
+https://www.loom.com/share/dda5a1c0aa79434fb9a11c3e3461a76f
+
+The demonstration includes:
+
+- Architecture overview (Frontend → Backend → Database)
+- Participant Management (Full CRUD)
+- Attendance Management
+- Real-time Dashboard Analytics
+- Business workflow automation explanation
+
+
 ## Features
 
 ### 1. Dashboard
@@ -201,3 +220,4 @@ Pagination & search
 Advanced analytics dashboard
 
 Email notifications
+
